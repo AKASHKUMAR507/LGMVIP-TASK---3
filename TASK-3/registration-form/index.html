@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>REGISTRATION FORM</title>
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+	<center>
+		<h1>Registration Form</h1>
+		<table  >
+			<thead>
+				<tr>
+					<th>First Name</th>
+					<td><input type="text" name="first_name" id="first_name"></td>
+				</tr>
+			</thead>
+			<tbody>
+				<tr>
+					<th>Last Name</th>
+					<td><input type="text" name="last_name" id="last_name"></td>
+				</tr>
+				<tr>
+					<th>Email</th>
+					<td><input type="text" name="email" id="email"></td>
+				</tr>
+				<tr>
+					<th>Age</th>
+					<td><input type="text" name="age" id="age"></td>
+				</tr>
+                <tr>
+					<th>Mobile No.</th>
+					<td><input type="text" name="mobile" id="mobile"></td>
+				</tr>
+				<tr id="btn_a">
+					<td colspan="2"><input type="button" name="button" id="btn" value="Add" onclick="AddRow()"></td>
+				</tr>
+			</tbody>
+		</table>
+
+		<table  id="list">
+			<thead>
+				<tr>
+					<th>First Name</th>
+					<th>Last Name</th>
+					<th>Email</th>
+					<th>Age</th>
+                    <th>Mobile No.</th>
+				</tr>
+			</thead>
+		</table>
+	</center>
+	<script src="myscript.js"></script>
+</body>
+	
+</html>

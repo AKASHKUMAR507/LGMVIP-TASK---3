@@ -1,0 +1,48 @@
+table{
+	margin-top: 50px;
+	text-align: center;
+	border: 10px;
+	border-color: solid black;
+	border-collapse: collapse;
+	color: white;
+}
+
+#list td{
+	padding: 13px;
+	color: black;
+	border: 1px;
+	border-style: solid;
+	border-color: black;
+	background-color: #ffffff;
+}
+
+#btn_a td input{
+	margin-top: 5%;
+	padding: 10px;
+	border: none;
+	border-radius: 10px;
+	cursor: pointer;
+	outline: none;
+	background: #2a7ca5;
+	color: rgb(0, 0, 0);
+	text-transform: capitalize;
+
+}
+#btn_a td input:hover{
+	background: green;
+  }
+
+
+#list th{
+	padding: 13px;
+	border: 1px;
+	border-style: solid;
+	border-color: black;
+	background: #ffffff;
+	color: black;
+}
+
+body{
+	background: #24282A;
+	color: white;
+}
